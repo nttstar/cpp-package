@@ -3,7 +3,7 @@
 function useage()
 {
     cat << EOU
-    Useage: bash $0 <path to the binary> <path to the resources> <destination path which will be packaged to tar.gz in the end>
+    Useage: bash $0 <path to the binary> <path to the resource path> <package-name>
 EOU
 exit 1
 }
